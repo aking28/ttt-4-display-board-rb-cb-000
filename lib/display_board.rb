@@ -1,9 +1,8 @@
-def display_board(board = [" "," "," "," "," "," "," "," "," "])
+def display_board(board = ["o","x"," "," "," "," "," "," "," "])
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
-  capture_puts{ display_board(board) }
 end
   display_board
