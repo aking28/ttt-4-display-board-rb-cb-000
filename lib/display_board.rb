@@ -3,6 +3,6 @@ def display_board(board = ["o", "X"," "," ", "X"," ","X","o"," "])
   puts "-----------"
   puts "#{board[]}""|#{board[4]}"|"#{board[]}""
   puts "-----------"
-  puts ""#{board[6]}""|#{board[7]}""|   "
+  puts ""#{board[6]}""|#{board[7]}""|#{board[]}"
 end
   display_board
