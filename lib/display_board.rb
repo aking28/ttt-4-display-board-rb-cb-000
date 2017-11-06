@@ -1,5 +1,5 @@
-def display_board(board = ["o","x"," "," "," "," "," "," "," "])
-  puts "   |   |   "
+def display_board(board = [" "," "," "," "," "," "," "," "," "])
+  puts "   | x |   "
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
